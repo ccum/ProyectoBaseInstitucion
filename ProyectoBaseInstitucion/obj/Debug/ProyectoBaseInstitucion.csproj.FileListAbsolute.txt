@@ -1,0 +1,6 @@
+c:\users\ccuevam\documents\visual studio 2015\Projects\ProyectoBaseInstitucion\ProyectoBaseInstitucion\bin\Debug\ProyectoBaseInstitucion.exe.config
+c:\users\ccuevam\documents\visual studio 2015\Projects\ProyectoBaseInstitucion\ProyectoBaseInstitucion\obj\Debug\ProyectoBaseInstitucion.csprojResolveAssemblyReference.cache
+c:\users\ccuevam\documents\visual studio 2015\Projects\ProyectoBaseInstitucion\ProyectoBaseInstitucion\bin\Debug\ProyectoBaseInstitucion.exe
+c:\users\ccuevam\documents\visual studio 2015\Projects\ProyectoBaseInstitucion\ProyectoBaseInstitucion\bin\Debug\ProyectoBaseInstitucion.pdb
+c:\users\ccuevam\documents\visual studio 2015\Projects\ProyectoBaseInstitucion\ProyectoBaseInstitucion\obj\Debug\ProyectoBaseInstitucion.exe
+c:\users\ccuevam\documents\visual studio 2015\Projects\ProyectoBaseInstitucion\ProyectoBaseInstitucion\obj\Debug\ProyectoBaseInstitucion.pdb
