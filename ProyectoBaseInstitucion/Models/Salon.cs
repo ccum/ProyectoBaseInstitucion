@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoBaseInstitucion.Models
 {
-    class Salon : IEntidad
+    public class Salon : IEntidad
     {
         public string CodigoInterno
         {

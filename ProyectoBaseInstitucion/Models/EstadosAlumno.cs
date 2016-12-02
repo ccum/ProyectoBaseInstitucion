@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoBaseInstitucion.Models
 {
-    enum EstadosAlumno
+    public enum EstadosAlumno
     {
         Matriculado = 0,
         Activo = 1,

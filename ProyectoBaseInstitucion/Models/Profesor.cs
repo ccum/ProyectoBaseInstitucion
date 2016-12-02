@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoBaseInstitucion.Models
 {
-    class Profesor: Persona
+    public class Profesor: Persona
     {
         public string Catedra { get; set; }
 

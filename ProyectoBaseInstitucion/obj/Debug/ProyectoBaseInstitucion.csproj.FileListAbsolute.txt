@@ -4,3 +4,13 @@ c:\users\ccuevam\documents\visual studio 2015\Projects\ProyectoBaseInstitucion\P
 c:\users\ccuevam\documents\visual studio 2015\Projects\ProyectoBaseInstitucion\ProyectoBaseInstitucion\bin\Debug\ProyectoBaseInstitucion.pdb
 c:\users\ccuevam\documents\visual studio 2015\Projects\ProyectoBaseInstitucion\ProyectoBaseInstitucion\obj\Debug\ProyectoBaseInstitucion.exe
 c:\users\ccuevam\documents\visual studio 2015\Projects\ProyectoBaseInstitucion\ProyectoBaseInstitucion\obj\Debug\ProyectoBaseInstitucion.pdb
+C:\Users\ccuevam\Downloads\ProyectoBaseInstitucion-master\ProyectoBaseInstitucion-master\ProyectoBaseInstitucion\bin\Debug\Files\listasProfesores.txt
+C:\Users\ccuevam\Downloads\ProyectoBaseInstitucion-master\ProyectoBaseInstitucion-master\ProyectoBaseInstitucion\bin\Debug\ProyectoBaseInstitucion.exe.config
+C:\Users\ccuevam\Downloads\ProyectoBaseInstitucion-master\ProyectoBaseInstitucion-master\ProyectoBaseInstitucion\bin\Debug\ProyectoBaseInstitucion.exe
+C:\Users\ccuevam\Downloads\ProyectoBaseInstitucion-master\ProyectoBaseInstitucion-master\ProyectoBaseInstitucion\bin\Debug\ProyectoBaseInstitucion.pdb
+C:\Users\ccuevam\Downloads\ProyectoBaseInstitucion-master\ProyectoBaseInstitucion-master\ProyectoBaseInstitucion\bin\Debug\EntityFramework.dll
+C:\Users\ccuevam\Downloads\ProyectoBaseInstitucion-master\ProyectoBaseInstitucion-master\ProyectoBaseInstitucion\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ccuevam\Downloads\ProyectoBaseInstitucion-master\ProyectoBaseInstitucion-master\ProyectoBaseInstitucion\bin\Debug\EntityFramework.xml
+C:\Users\ccuevam\Downloads\ProyectoBaseInstitucion-master\ProyectoBaseInstitucion-master\ProyectoBaseInstitucion\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ccuevam\Downloads\ProyectoBaseInstitucion-master\ProyectoBaseInstitucion-master\ProyectoBaseInstitucion\obj\Debug\ProyectoBaseInstitucion.exe
+C:\Users\ccuevam\Downloads\ProyectoBaseInstitucion-master\ProyectoBaseInstitucion-master\ProyectoBaseInstitucion\obj\Debug\ProyectoBaseInstitucion.pdb
