@@ -1,4 +1,5 @@
 ﻿
+
 using ProyectoBaseInstitucion.DataConfig;
 using ProyectoBaseInstitucion.Models;
 using System;
@@ -20,6 +21,19 @@ namespace ProyectoBaseInstitucion
             //ConsultaArchivoYLinq();
 
             AppContexto db = new AppContexto();
+            Profesor nuevo = new Profesor();
+            nuevo = db.Profesores.Where(s => s.PersonaId == 5).FirstOrDefault();
+            nuevo.Nombre = "Juanito";
+            
+            db.SaveChanges();
+
+            Console.ReadKey();
+
+        }
+
+        private static void NewMethod()
+        {
+            AppContexto db = new AppContexto();
 
             List<Profesor> listarProfesores = new List<Profesor>();
             string[] lineasArchivo = File.ReadAllLines("./Files/listasProfesores.txt");
@@ -40,7 +54,7 @@ namespace ProyectoBaseInstitucion
                     default:
                         break;
                 }
-   
+
                 listarProfesores.Add(profe);
 
             }
@@ -49,10 +63,9 @@ namespace ProyectoBaseInstitucion
             db.SaveChanges();
             Console.WriteLine("Termino");
             Console.ReadKey();
-
         }
 
-        
+
 
 
 
