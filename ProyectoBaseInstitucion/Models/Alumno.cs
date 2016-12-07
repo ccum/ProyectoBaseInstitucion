@@ -20,8 +20,11 @@ namespace ProyectoBaseInstitucion.Models
         {
             get
             {
-                return base.NombreCompleto.ToUpper();
+                return $"{Nombre } {Apellido}";
+
             }
         }
+        //public string ColumnaTest { get; set; }
+
     }
 }

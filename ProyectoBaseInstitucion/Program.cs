@@ -21,23 +21,9 @@ namespace ProyectoBaseInstitucion
 
             AppContexto db = new AppContexto();
 
-            List<Profesor> ListaProfesor = new List<Profesor>();
-            ListaProfesor = db.Profesores.ToList();
-
-
-
-            Console.ReadKey();
-        }
-
-
-
-        private static void ConsultaArchivoYLinq()
-        {
-            string[] lineasText = File.ReadAllLines("./Files/listasProfesores.txt");
-
-            List<Profesor> ListaProfesores = new List<Profesor>();
-
-            foreach (string item in lineasText)
+            List<Profesor> listarProfesores = new List<Profesor>();
+            string[] lineasArchivo = File.ReadAllLines("./Files/listasProfesores.txt");
+            foreach (string item in lineasArchivo)
             {
                 Profesor profe = new Profesor();
                 string[] arrayNombres = item.Split(' ');
@@ -54,35 +40,74 @@ namespace ProyectoBaseInstitucion
                     default:
                         break;
                 }
-                ListaProfesores.Add(profe);
+   
+                listarProfesores.Add(profe);
 
             }
 
+            db.Profesores.AddRange(listarProfesores);
+            db.SaveChanges();
+            Console.WriteLine("Termino");
+            Console.ReadKey();
 
-
-            //var archivo = File.Open("nuevoArchivo.bin", FileMode.OpenOrCreate);
-            //var wrapper = new BinaryWriter(archivo);
-
-            //foreach (var item in ListaProfesores)
-            //{
-            //    //var dataNombre = Encoding.UTF8.GetBytes(item.NombreCompleto);
-            //    //archivo.Write(dataNombre,0 , dataNombre.Length)
-            //    wrapper.Write(item.NombreCompleto);
-            //    Console.WriteLine($"CODIGO {item.CodigoInterno} NOMBRE: {item.NombreCompleto}");
-            //}
-
-
-
-            var consulta = from prof in ListaProfesores
-                           where prof.Nombre.Contains("J")
-                           select prof.Nombre;
-
-            var consulta2 = ListaProfesores.Where(e => e.Nombre.StartsWith("J"));
-
-            foreach (var item in consulta2)
-            {
-                Console.WriteLine(item.Nombre);
-            }
         }
+
+        
+
+
+
+        //private List<Profesor>  listarrPorfesoresDesrFile()
+        //{
+        //    string[] lineasText = File.ReadAllLines("./Files/listasProfesores.txt");
+
+        //    List<Profesor> ListaProfesores = new List<Profesor>();
+
+        //    foreach (string item in lineasText)
+        //    {
+        //        Profesor profe = new Profesor();
+        //        string[] arrayNombres = item.Split(' ');
+        //        profe.Apellido = $"{arrayNombres[1]} {arrayNombres[2]} ";
+        //        profe.CodigoInterno = arrayNombres[0];
+        //        switch (arrayNombres.Length)
+        //        {
+        //            case 4:
+        //                profe.Nombre = arrayNombres[3];
+        //                break;
+        //            case 5:
+        //                profe.Nombre = $"{arrayNombres[3]} {arrayNombres[4]} ";
+        //                break;
+        //            default:
+        //                break;
+        //        }
+        //        ListaProfesores.Add(profe);
+
+        //    }
+
+
+
+        //    //var archivo = File.Open("nuevoArchivo.bin", FileMode.OpenOrCreate);
+        //    //var wrapper = new BinaryWriter(archivo);
+
+        //    //foreach (var item in ListaProfesores)
+        //    //{
+        //    //    //var dataNombre = Encoding.UTF8.GetBytes(item.NombreCompleto);
+        //    //    //archivo.Write(dataNombre,0 , dataNombre.Length)
+        //    //    wrapper.Write(item.NombreCompleto);
+        //    //    Console.WriteLine($"CODIGO {item.CodigoInterno} NOMBRE: {item.NombreCompleto}");
+        //    //}
+
+
+
+        //    var consulta = from prof in ListaProfesores
+        //                   where prof.Nombre.Contains("J")
+        //                   select prof.Nombre;
+
+        //    var consulta2 = ListaProfesores.Where(e => e.Nombre.StartsWith("J"));
+
+        //    foreach (var item in consulta2)
+        //    {
+        //        Console.WriteLine(item.Nombre);
+        //    }
+        //}
     }
 }
