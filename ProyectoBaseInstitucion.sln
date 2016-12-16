@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoBaseInstitucion", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppMVC", "AppMVC\AppMVC.csproj", "{CFB5C514-658F-4B51-AEBF-3FCCD6881C1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppForms", "AppForms\AppForms.csproj", "{8A9E6DCB-3FFB-42A9-85ED-FFE5894843F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppAPI", "AppAPI\AppAPI.csproj", "{3FDBAD83-EBD0-4BCF-B49D-8BD27F8B57F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{CFB5C514-658F-4B51-AEBF-3FCCD6881C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFB5C514-658F-4B51-AEBF-3FCCD6881C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFB5C514-658F-4B51-AEBF-3FCCD6881C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A9E6DCB-3FFB-42A9-85ED-FFE5894843F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A9E6DCB-3FFB-42A9-85ED-FFE5894843F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A9E6DCB-3FFB-42A9-85ED-FFE5894843F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A9E6DCB-3FFB-42A9-85ED-FFE5894843F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FDBAD83-EBD0-4BCF-B49D-8BD27F8B57F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FDBAD83-EBD0-4BCF-B49D-8BD27F8B57F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FDBAD83-EBD0-4BCF-B49D-8BD27F8B57F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FDBAD83-EBD0-4BCF-B49D-8BD27F8B57F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
